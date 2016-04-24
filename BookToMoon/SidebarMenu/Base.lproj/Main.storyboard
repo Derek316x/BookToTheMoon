@@ -21,71 +21,39 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1bg" translatesAutoresizingMaskIntoConstraints="NO" id="FkQ-6D-JJj">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBx-mm-6gN">
-                                <rect key="frame" x="0.0" y="472" width="600" height="128"/>
-                                <subviews>
-                                    <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UfP-wh-OA6">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AZIMUTH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Dt-9L-vkd" userLabel="azimuthTitle">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="29"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="29" id="I36-Co-jqi"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
-                                                <color key="textColor" white="0.080145474137931036" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bZ-1L-IXW" userLabel="azimuthAmount">
-                                                <rect key="frame" x="279" y="53" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="1bZ-1L-IXW" firstAttribute="centerY" secondItem="UfP-wh-OA6" secondAttribute="centerY" id="8nI-30-3SR"/>
-                                            <constraint firstItem="1Dt-9L-vkd" firstAttribute="top" secondItem="UfP-wh-OA6" secondAttribute="top" id="BBU-l3-MlG"/>
-                                            <constraint firstAttribute="trailing" secondItem="1Dt-9L-vkd" secondAttribute="trailing" id="ZcR-yU-o8z"/>
-                                            <constraint firstItem="1bZ-1L-IXW" firstAttribute="centerX" secondItem="UfP-wh-OA6" secondAttribute="centerX" id="eAS-ZE-RpK"/>
-                                            <constraint firstItem="1Dt-9L-vkd" firstAttribute="leading" secondItem="UfP-wh-OA6" secondAttribute="leading" id="jGh-ga-UGP"/>
-                                        </constraints>
-                                    </view>
-                                    <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dJb-Hj-MTF">
-                                        <rect key="frame" x="300" y="0.0" width="300" height="128"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2d-Si-YEi">
+                                <rect key="frame" x="20" y="220" width="560" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AZIMUTH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ziy-Lh-gw2">
+                                <rect key="frame" x="0.0" y="20" width="600" height="55"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="UfP-wh-OA6" secondAttribute="bottom" id="3Jd-Zv-PrZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="UfP-wh-OA6" secondAttribute="trailing" id="52b-gN-PTU"/>
-                                    <constraint firstAttribute="height" constant="128" id="6JT-wQ-IQc"/>
-                                    <constraint firstItem="UfP-wh-OA6" firstAttribute="leading" secondItem="pBx-mm-6gN" secondAttribute="leading" id="HdD-oU-Xi7"/>
-                                    <constraint firstItem="UfP-wh-OA6" firstAttribute="top" secondItem="pBx-mm-6gN" secondAttribute="top" id="Ie0-MZ-Uhe"/>
-                                    <constraint firstAttribute="bottom" secondItem="dJb-Hj-MTF" secondAttribute="bottom" id="Jvg-1v-azh"/>
-                                    <constraint firstItem="dJb-Hj-MTF" firstAttribute="top" secondItem="pBx-mm-6gN" secondAttribute="top" id="Oan-ql-qSO"/>
-                                    <constraint firstItem="dJb-Hj-MTF" firstAttribute="leading" secondItem="pBx-mm-6gN" secondAttribute="leading" constant="300" id="Rmg-Wa-Iby"/>
-                                    <constraint firstAttribute="trailing" secondItem="dJb-Hj-MTF" secondAttribute="trailing" id="pF5-Iz-y09"/>
+                                    <constraint firstAttribute="height" constant="55" id="YZy-k4-bsf"/>
                                 </constraints>
-                            </view>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="FkQ-6D-JJj" firstAttribute="top" secondItem="jg0-Tt-uLi" secondAttribute="top" id="05h-tn-MCe"/>
-                            <constraint firstItem="pBx-mm-6gN" firstAttribute="leading" secondItem="jg0-Tt-uLi" secondAttribute="leading" id="82x-TP-mx3"/>
+                            <constraint firstAttribute="trailing" secondItem="Ziy-Lh-gw2" secondAttribute="trailing" id="77d-wE-nGu"/>
+                            <constraint firstItem="z2d-Si-YEi" firstAttribute="leading" secondItem="jg0-Tt-uLi" secondAttribute="leadingMargin" id="89N-RG-iVv"/>
                             <constraint firstAttribute="trailing" secondItem="FkQ-6D-JJj" secondAttribute="trailing" id="I0o-Q9-X0I"/>
-                            <constraint firstItem="Uc3-xU-BKj" firstAttribute="top" secondItem="pBx-mm-6gN" secondAttribute="bottom" id="QDC-dq-hV8"/>
-                            <constraint firstAttribute="trailing" secondItem="pBx-mm-6gN" secondAttribute="trailing" id="bUq-dk-xg3"/>
+                            <constraint firstItem="z2d-Si-YEi" firstAttribute="trailing" secondItem="jg0-Tt-uLi" secondAttribute="trailingMargin" id="LaS-tr-Uqw"/>
+                            <constraint firstItem="z2d-Si-YEi" firstAttribute="top" secondItem="Ziy-Lh-gw2" secondAttribute="bottom" constant="145" id="Tup-de-v1E"/>
+                            <constraint firstItem="Ziy-Lh-gw2" firstAttribute="leading" secondItem="jg0-Tt-uLi" secondAttribute="leading" id="Zd7-8E-GmL"/>
+                            <constraint firstItem="Ziy-Lh-gw2" firstAttribute="top" secondItem="iEd-Us-Qga" secondAttribute="bottom" id="cJV-UC-WVw"/>
                             <constraint firstItem="Uc3-xU-BKj" firstAttribute="top" secondItem="FkQ-6D-JJj" secondAttribute="bottom" id="eYR-yP-XJ0"/>
                             <constraint firstItem="FkQ-6D-JJj" firstAttribute="leading" secondItem="jg0-Tt-uLi" secondAttribute="leading" id="hMq-kX-w4v"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="azimuthAmountLabel" destination="1bZ-1L-IXW" id="Bn7-ju-lqf"/>
-                        <segue destination="vXZ-lx-hvc" kind="show" id="tg4-8w-D4h"/>
+                        <outlet property="azimuthLabel" destination="z2d-Si-YEi" id="r3Y-LL-tOz"/>
+                        <segue destination="vXZ-lx-hvc" kind="show" identifier="MainBase" id="tg4-8w-D4h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clg-rY-q1O" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -95,7 +63,7 @@
         <!--Reveal View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="SWRevealViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainBase" id="vXZ-lx-hvc" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -464,7 +432,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzs-a9-sJr">
                                         <rect key="frame" x="8" y="8" width="584" height="112"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>

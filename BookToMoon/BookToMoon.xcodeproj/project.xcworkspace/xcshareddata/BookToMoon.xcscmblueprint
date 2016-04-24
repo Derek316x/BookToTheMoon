@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BCE18749DBE0CFF2050C03EE99DC4BF6C11E8F56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BCE18749DBE0CFF2050C03EE99DC4BF6C11E8F56" : 0,
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A17FB021-7459-496E-8D5D-DD890519E885",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BCE18749DBE0CFF2050C03EE99DC4BF6C11E8F56" : "BookToTheMoon\/",
+    "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3" : "SwiftyJSON\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BookToMoon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BookToMoon\/BookToMoon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zovfreullia\/BookToTheMoon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BCE18749DBE0CFF2050C03EE99DC4BF6C11E8F56"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JimmyLemieux\/SwiftyJSON.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3"
+    }
+  ]
+}
