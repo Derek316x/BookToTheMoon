@@ -11,6 +11,9 @@ import UIKit
 class PhotoViewController: UIViewController {
     @IBOutlet weak var menuButton:UIBarButtonItem!
 
+    @IBOutlet weak var explanationLabel: UILabel!
+    @IBOutlet weak var nasaImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,7 +29,13 @@ class PhotoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    // parse through the NASA daily exploration
+    // https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

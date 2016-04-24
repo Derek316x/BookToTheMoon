@@ -12,8 +12,7 @@ import CoreLocation
 class FindMoonVC: UIViewController, CLLocationManagerDelegate {
     
 
-    @IBOutlet weak var lngLabel: UILabel!
-    @IBOutlet weak var latLabel: UILabel!
+    @IBOutlet weak var azimuthAmountLabel: UILabel!
     
     var locationManager: CLLocationManager!
     
@@ -27,6 +26,7 @@ class FindMoonVC: UIViewController, CLLocationManagerDelegate {
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
+        locationManager.startUpdatingHeading()
         
     }
 
@@ -45,10 +45,28 @@ class FindMoonVC: UIViewController, CLLocationManagerDelegate {
         
     }
     
-    func moonLocationLatitudeLongitude() {
+    /*    north representing 0° or 360°
+     *    east representing 90°
+     *    south representing 180°
+     *    west representing 270°
+     */
+    func locationManager(manager: CLLocationManager, didUpdateHeading heading: CLHeading) {
         
+        //azimuthAmountLabel = String(heading.magneticHeading)
+
+        if (heading.magneticHeading > 264 && heading.magneticHeading < 265) {
+            print("omg shoes")
+        }
+        
+        // This will print out the direction the device is heading
+        print(heading.magneticHeading)
+    
     }
     
+    // INVOKE Wolfram Alpha API
+    func wolframAlphaCall() {
+        
+    }
     
     
     /*
